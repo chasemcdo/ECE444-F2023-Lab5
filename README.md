@@ -17,3 +17,10 @@ TDD can introduce an extra layer of debugging since you now have to debug your t
 Slowed development speed. You now need to produce a greater volume of code for the same feature as compared to a development process where you aren't writing as many tests.
 
 As requirments change, so does the testing need. Large changes in flow/structure can lead to breaking tests which then need to be updated to fit with the new schema, further slowly development.
+
+## Test Case in Group Project
+Our group project uses a combination of a Flask backend and a NextJS frontend.
+
+As part of my added test case I setup our team's Frontend test suite using Jest.
+
+An added test for an essential card component can be seen [here](https://github.com/ECE444-2023Fall/project-1-web-application-design-group1-flask-and-furious/blob/487cbe1e3f80c29b13a7f4d67eb60166766652d5/__tests__/eventCard.test.tsx#L6-L23)
