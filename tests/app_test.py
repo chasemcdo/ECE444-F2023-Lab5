@@ -1,4 +1,3 @@
-import os
 import pytest
 import json
 from pathlib import Path
@@ -6,6 +5,7 @@ from pathlib import Path
 from project.app import app, db
 
 TEST_DB = "test.db"
+
 
 @pytest.fixture
 def client():
